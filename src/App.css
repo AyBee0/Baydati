@@ -5,9 +5,15 @@
 
 textarea {
     margin-top: 1em;
-    width: 40em;
+    width: 75%;
     height: 25vh;
     font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    textarea {
+        width: 90%;
+    }
 }
 
 label {
