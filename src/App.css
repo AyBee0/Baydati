@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+textarea {
+    margin-top: 1em;
+    width: 40em;
+    height: 25vh;
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+    font-size: 2rem;
+}
