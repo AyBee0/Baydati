@@ -13,7 +13,7 @@ function App() {
     }
     return (
         <div className="container-fluid App justify-content-center">
-            <img style={{ width: '20em' }} src={logo} alt="" />
+            <img src={logo} alt="" />
             <br />
             <label>Baydatak</label>
             <textarea value={engLetterText} onChange={(e) => englChanged(e.target.value)}></textarea>
